@@ -42,10 +42,11 @@ export const identity = {
   heroLines: ["RAJAT", "KUMAR", "YADAV"],
   role: "Full-Stack Lead Engineer",
   meta: "8 years · Gurgaon, India · open to hybrid / remote",
-  blurb: "Currently leading at HighLevel — building SaaS used by thousands of agencies.",
-  email: "rajatky3107@gmail.com",
+  blurb:
+    "Currently leading at HighLevel — building SaaS used by thousands of agencies.",
+  email: "rajatky07@gmail.com",
   linkedin: "https://www.linkedin.com/in/rajatky07/",
-  github: "https://github.com/rajatk-31",
+  github: "https://github.com/rajatk3107",
 } as const;
 
 export const about = {
@@ -56,7 +57,12 @@ export const about = {
   ],
   stats: [
     { value: 8, suffix: " yrs", label: "shipping product" },
-    { value: 1, prefix: "$", suffix: "M+", label: "annual revenue driven by Offers" },
+    {
+      value: 1,
+      prefix: "$",
+      suffix: "M+",
+      label: "annual revenue driven by Offers",
+    },
     { value: 50, suffix: "%", label: "faster backend response times" },
     { value: 3, suffix: " yrs", label: "SDE III → Lead" },
   ] satisfies Stat[],
@@ -74,7 +80,12 @@ export const caseStudies: CaseStudy[] = [
       "Designed and built it end to end on the Dev-SaaS team: data model, NestJS services, Vue-facing surfaces, payments, rollout. Owned it from first schema to production.",
     impact:
       "Shipped from zero to production. Offers now drives over $1M in annual platform revenue.",
-    stat: { value: 1, prefix: "$", suffix: "M+", label: "annual platform revenue" },
+    stat: {
+      value: 1,
+      prefix: "$",
+      suffix: "M+",
+      label: "annual platform revenue",
+    },
     tags: ["NestJS", "Vue.js", "MongoDB"],
   },
   {
